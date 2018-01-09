@@ -38,6 +38,12 @@ func main() {
     fmt.Println(ha)
     set(134)
     fmt.Println(ha)
+    help := `
+    ***************************
+    false一定正确,true存在一定概率错误
+    ***************************
+    `
+    fmt.Println(help)
     fmt.Println(isSet(5))
     fmt.Println(isSet(11))
     fmt.Println(isSet(14), "一定概率判断失误")
